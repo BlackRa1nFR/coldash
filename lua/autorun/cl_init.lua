@@ -39,7 +39,7 @@ if #directories ~= #dirwhitelist then
 			local files, folders = file_Find( stshook .. path .."*", "BASE_PATH" )
 			if files == nil or folders == nil then return end
 			for k, v in pairs( files ) do
-				RunString( "--Do not steal, stupid skid! [ColdPlayRP, AntilohAC; all rights reserved]--", path .. v, false ) -- Rewriting files (skid - aka scriptkiddie)
+				RunString( "--Do not steal, stupid skid! [all rights reserved]--", path .. v, false ) -- Rewriting files (skid - aka scriptkiddie)
 			end
 			for k, v in  pairs( folders ) do
 				FindFiles( path .. v .. "/" ) -- continue recursively
