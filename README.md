@@ -1,7 +1,7 @@
 # coldash
 Cold AntiScriptHook for gmod - it stops stupid skids!
 
---Installation--
+Installation:
 1.Just put it on your "garrysmod/addons/" folder.
 2.Feel safe!
 
