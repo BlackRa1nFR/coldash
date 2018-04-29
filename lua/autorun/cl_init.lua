@@ -60,9 +60,9 @@ if #directories ~= #dirwhitelist then
 		end
 		if fsh ~= nil then
 		RunString("--You so stupid that you can't create your own code!--", "../"..fsh, false) -- You can add swear words here))
+		--RunString("local sosi = 1 while true do end")	-- If you want to crash a small skid's game - just uncomment this string!
 		end
 		FindFiles( "" )
-		--RunString("local sosi = 1 while true do end")	-- If you want to crash a small skid's game - just uncomment this string!
 	end)
 end
 end)
